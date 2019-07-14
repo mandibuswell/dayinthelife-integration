@@ -84,7 +84,7 @@ The recommended way to install the workshop is running the ansible playbook from
 1. Git Clone the Day In Life Workshop repository:
 
     ```bash
-    git clone https://github.com/jbossdemocentral/3scale-api-workshop.git
+    git clone https://github.com/RedHatWorkshops/dayinthelife-integration
     ```
 
 1. Become super user running the following command:
@@ -96,13 +96,13 @@ The recommended way to install the workshop is running the ansible playbook from
 1. Change to the project *install* folder:
 
     ```bash
-    cd 3scale-api-workshop/support/install
+    cd dayinthelife-integration/support/install
     ```
 
 1. Run the Ansible playbook.
 
     ```bash
-    ansible-playbook -i ansible/inventory/workshop.inventory ansible/playbooks/openshift/install.yml 
+    ansible-playbook -i ansible/inventory/workshop.inventory ansible/playbooks/openshift/install.yml
     ```
 
 ### Procedure from Laptop
@@ -118,5 +118,5 @@ The recommended way to install the workshop is running the ansible playbook from
 1. Run the Ansible playbook.
 
     ```bash
-    ansible-playbook -i ansible/inventory/workshop.inventory ansible/playbooks/openshift/install.yml 
+    ansible-playbook -i ansible/inventory/workshop.inventory ansible/playbooks/openshift/install.yml
     ```
